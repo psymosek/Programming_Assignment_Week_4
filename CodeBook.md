@@ -19,7 +19,7 @@ The transformations executed by the script, in order, are:
 16. load subject identifiers 'subject_test.txt'
 17. select mean() and std() features only
 18. transfer feature names to variable names
-19. prepend subject and activity factors to training data
+19. prepend subject and activity factors to testing data
 20. stack training and test features together
 21. replace activity labels with better descriptions
 22. save only complete cases
